@@ -1,0 +1,9 @@
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        margin-bottom: 10px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}

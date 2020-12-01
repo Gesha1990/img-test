@@ -1,1 +1,1 @@
-export { default as ProductsContainer } from './ProductsContainer/index'
+export { default as ImagesContainer } from './ImagesContainer/index'

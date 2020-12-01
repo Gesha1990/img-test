@@ -1,9 +1,0 @@
-.error input,
-.error textarea
-{
-  border:  solid  red 2px;
-
-}
-textarea{
-  resize: none;
-}

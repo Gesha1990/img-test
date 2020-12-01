@@ -1,14 +1,9 @@
-import { ProductsContainer } from '../../Components/index'
+import { ImagesContainer } from '../../Components/index'
 
 export const unauthorized = [
   {
     path: '/',
-    component: ProductsContainer,
-    exact: true,
-  },
-  {
-    path: '/basket',
-    component: ProductsContainer,
+    component: ImagesContainer,
     exact: true,
   },
 ]

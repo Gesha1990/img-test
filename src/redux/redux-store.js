@@ -1,6 +1,6 @@
 import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import   thunkMiddleware from 'redux-thunk';
-import productsReducer from "./productsReducer";
+import imgReducer from "./imgReducer";
 
 function saveToLocalStorage(state) {
   try{
@@ -24,7 +24,7 @@ function loadFromLocalStorage() {
 
 
 let reducers = combineReducers({
-  productsPage: productsReducer,
+  imagesPage: imgReducer,
 });
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const persistedState = loadFromLocalStorage();
